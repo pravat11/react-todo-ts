@@ -1,7 +1,11 @@
 import * as React from 'react';
 
-import Router from './Router';
+import TodoContainer from './todo/TodoContainer';
 
-const App = () => <Router />;
+const App = () => (
+  <div className="container">
+    <TodoContainer />
+  </div>
+);
 
 export default App;
