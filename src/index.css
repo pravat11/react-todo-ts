@@ -18,6 +18,37 @@ body {
   background-color: #ddd;
 }
 
+.login-form-container {
+  width: 340px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+.sign-in-button {
+  width: 250px;
+  margin-top: 10px;
+}
+
+.login-form-wrapper {
+  margin: 50px 0;
+}
+
+.login-form {
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 250px;
+  padding: 5px;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
 .button-wrapper {
   display: inline-block;
   width: 100%;

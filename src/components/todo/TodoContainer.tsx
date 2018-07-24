@@ -27,7 +27,7 @@ class TodoContainer extends React.Component<TodoContainerProps, {}> {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <TodoModal />
         <div className="button-wrapper">
           <Button
